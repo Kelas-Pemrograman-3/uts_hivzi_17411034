@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="profildata.css">
+
+
+    <title>Table Mahasiswa</title>
+</head>
+<nav>
+    <ul>
+        <li>
+            <a href="#">Home</a> 
+            <li>
+                    <a href="#">Data</a>
+                    <ul>
+                        <li>
+                            <a href="#">Data Mahasiswa</a>
+                        </li>
+                        <li>
+                                <a href="#">Data Dosen</a>
+                        </li>
+                        <li>
+                                <a href="#">Perkuliahan </a>
+                        </li>
+                    </ul>
+                </li>
+              <li>
+                    <a href="#">About</a> 
+            </li>
+        </li>
+    <ul>
+</nav>
+
+<body>
+    <div class="container">
+        <div class="header-page">
+            <h2>Table Mahasiswa</h2>
+        </div>
+        <img src="12.jpg" width="150">
+        <table border="1" bgcolor="cyan" bordercolor="red">
+                <thead>
+                    <tr>
+                            <th>Username</th>
+                            <th>Full Name</th>
+                            <th>Gender</th>
+                            <th>Address</th>
+                            <th>Majors</th>
+                            <th>Action</th>
+                    </tr>
+                </thead>
+                    <tr>
+                            <td>Hivziok</td>
+                            <td>Hivzi oktaviandi</td>
+                            <td>Male</td>
+                            <td>Bandar Lampung</td>
+                            <td>Sistem informasi</td>
+                            <td>
+                                <a href="#">
+                                    <button class="button-utama">Edit</button>
+                                </a>
+                                <a href="#">
+                                        <button onclick="return hapus()" class="button-danger">Delete</button>
+                                    </a>
+                            </td>
+                    </tr>
+                    <tr>
+                            <td>Anjing1</td>
+                            <td>Asu cuk</td>
+                            <td>Male</td>
+                            <td>Bandar Lampung</td>
+                            <td>Akuntansi</td>
+                            <td>
+                                    <a href="#">
+                                        <button class="button-utama">Edit</button>
+                                    </a>
+                                    <a href="#">
+                                            <button onclick="return hapus()" class="button-danger">Delete</button>
+                                        </a>
+                            </td>
+                    </tr>
+        </table>    
+    </div>        
+</body>
+</html>
